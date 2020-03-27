@@ -12,3 +12,6 @@ A Non-personalized (popularity-based) RS is built by following the below-mention
 3. Top 10 popular books are thus identified and recommended.
 
 Since non-personalized recommendation system takes the ratings provided by many users as input and provides same recommendations for all users i.e. not personalized it does not satisfy many users. 
+
+### Content-based Filtering Recommendation System
+This type of RecSys is identified to be fast and reliable as the recommendations provided are completely based on the content. There will never be any lack of information in this type of method as the system will not require very large data for working. This model takes item-data as input and provide recommendations based only on the item-to-item similarity. This method do not require user-data for processing. Content-based filtering never faces any type of cold-start problem as the similarity is calculated based on items only. 
