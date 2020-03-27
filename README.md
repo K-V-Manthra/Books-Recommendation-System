@@ -15,3 +15,8 @@ Since non-personalized recommendation system takes the ratings provided by many 
 
 ### Content-based Filtering Recommendation System
 This type of RecSys is identified to be fast and reliable as the recommendations provided are completely based on the content. There will never be any lack of information in this type of method as the system will not require very large data for working. This model takes item-data as input and provide recommendations based only on the item-to-item similarity. This method do not require user-data for processing. Content-based filtering never faces any type of cold-start problem as the similarity is calculated based on items only. 
+
+This is a personalised recommendation model where the recommendations are personalised to items (here: books) and do not provide any non-personalised recommendations to the users (readers). So, it is obvious that content-based filtering method satisfies the users by providing similar items.
+
+### Collaborative-Filtering Recommendation System
+Though contentbased filtering method provides recommendations based on item-to-item similarity, it may not provide users with the type of items or items they are interested. And that is where we go for collaborative filtering methods where user-item or item-user similarity is identified and recommendations are provided based on the results of collaborative filtering method.
